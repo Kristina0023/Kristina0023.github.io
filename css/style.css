@@ -423,3 +423,25 @@ header {
 .social-list__link {
   padding: 0.5em;
 }
+
+.intro-item-img {
+  max-width: 100px;
+}
+
+.portfolio-item-individual {
+  padding: 0 2em 2em;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.conect-img {
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+.last-img {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
